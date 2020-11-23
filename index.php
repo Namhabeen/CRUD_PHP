@@ -7,8 +7,9 @@
                 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         </head>
         <body>
+        <?php require_once('process.php'); ?>
             <div class="row justify-content-center">
-                <form action="" method="POST">
+                <form action="process.php" method="POST">
                     <div class="form-group">
                         <label>Title</label>
                             <input type="text" name="title" class="form-control" placeholder="제목을 입력하세요!">
